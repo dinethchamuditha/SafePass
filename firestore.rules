@@ -1,0 +1,22 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /incidents/{incidentId} {
+      // Allow anyone to read incidents
+      allow read: if true;
+      
+      // Allow anyone to create incidents with required fields
+      allow create: if request.resource.data.keys().hasAll(['location', 'type', 'timestamp', 'voteCount', 'message', 'images'])
+        && request.resource.data.type is string
+        && request.resource.data.voteCount is int
+        && request.resource.data.voteCount == 0;
+      
+      // Only allow updating voteCount
+      allow update: if request.resource.data.diff(resource.data).affectedKeys().hasOnly(['voteCount'])
+        && request.resource.data.voteCount is int;
+      
+      // No deletes allowed
+      allow delete: if false;
+    }
+  }
+}

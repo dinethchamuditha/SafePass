@@ -1,0 +1,15 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    // Allow read access to all images
+    match /incidents/{allPaths=**} {
+      allow read: if true;
+      
+      // Allow write only if:
+      // 1. File size is less than 1MB
+      // 2. File is an image
+      allow write: if request.resource.size < 1048576
+        && request.resource.contentType.matches('image/.*');
+    }
+  }
+}

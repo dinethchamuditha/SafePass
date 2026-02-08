@@ -1,0 +1,161 @@
+[
+  {
+    "category": {
+      "en": "Immediate Help",
+      "si": "හදිසි ඇමතුම්",
+      "ta": "அவசர உதவி"
+    },
+    "contacts": [
+      {
+        "name": { "en": "Disaster Mgmt Centre (DMC)", "si": "ආපදා කළමනාකරණ මධ්‍යස්ථානය", "ta": "இடர் முகாமைத்துவ நிலையம்" },
+        "number": "117",
+        "icon": "life-buoy",
+        "priority": "high"
+      },
+      {
+        "name": { "en": "Free Ambulance (Suwa Seriya)", "si": "සුව සැරිය ගිලන් රථ", "ta": "சுவ செரிய அம்புலன்ஸ்" },
+        "number": "1990",
+        "icon": "ambulance",
+        "priority": "high"
+      },
+      {
+        "name": { "en": "Police Emergency", "si": "පොලිස් හදිසි ඇමතුම්", "ta": "பொலிஸ் அவசர பிரிவு" },
+        "number": "119",
+        "icon": "shield-alert",
+        "priority": "high"
+      },
+      {
+        "name": { "en": "Fire & Rescue", "si": "ගිනි නිවන ඒකකය", "ta": "தீயணைப்பு படை" },
+        "number": "110",
+        "icon": "flame",
+        "priority": "high"
+      },
+      {
+        "name": { "en": "Red Cross Sri Lanka", "si": "ශ්‍රී ලංකා රතු කුරුස සංගමය", "ta": "இலங்கை செஞ்சிலுவை சங்கம்" },
+        "number": "0112691095",
+        "icon": "heart",
+        "priority": "high"
+      },
+      {
+        "name": { "en": "National Hospital Emergency", "si": "ජාතික රෝහල් හදිසි සේවය", "ta": "தேசிய மருத்துவமனை அவசரம்" },
+        "number": "0113071073",
+        "icon": "first-aid-kit",
+        "priority": "high"
+      }
+    ]
+  },
+  {
+    "category": {
+      "en": "Forces Rescue",
+      "si": "ත්‍රිවිධ හමුදා සහාය",
+      "ta": "முப்படை உதவி"
+    },
+    "contacts": [
+      {
+        "name": { "en": "Navy Boat Rescue", "si": "නාවික හමුදා (බෝට්ටු සේවය)", "ta": "கடற்படை படகு சேவை" },
+        "number": "0112445368",
+        "icon": "anchor",
+        "priority": "low"
+      },
+      {
+        "name": { "en": "Air Force Rescue", "si": "ගුවන් හමුදා සහාය", "ta": "விமானப்படை உதவி" },
+        "number": "0112441044",
+        "icon": "plane",
+        "priority": "low"
+      },
+      {
+        "name": { "en": "Army Relief", "si": "යුධ හමුදා සහාය", "ta": "இராணுவ உதவி" },
+        "number": "113",
+        "icon": "users",
+        "priority": "low"
+      },
+      {
+        "name": { "en": "Coast Guard", "si": "වෙරළාරක්ෂක බළකාය", "ta": "கடலோர காவல்படை" },
+        "number": "0112135633",
+        "icon": "waves",
+        "priority": "low"
+      }
+    ]
+  },
+  {
+    "category": {
+      "en": "Utilities & Services",
+      "si": "සේවා බිඳවැටීම්",
+      "ta": "சேவைகள்"
+    },
+    "contacts": [
+      {
+        "name": { "en": "Electricity (CEB)", "si": "විදුලිබල මණ්ඩලය (CEB)", "ta": "மின்சார சபை (CEB)" },
+        "number": "1987",
+        "icon": "zap",
+        "priority": "medium"
+      },
+      {
+        "name": { "en": "Electricity (LECO)", "si": "විදුලිබල (LECO)", "ta": "மின்சாரம் (LECO)" },
+        "number": "1910",
+        "icon": "zap",
+        "priority": "medium"
+      },
+      {
+        "name": { "en": "Water Board", "si": "ජල සම්පාදන මණ්ඩලය", "ta": "நீர் வழங்கல் சபை" },
+        "number": "1939",
+        "icon": "droplet",
+        "priority": "medium"
+      },
+      {
+        "name": { "en": "Road Breakdown Help", "si": "මාර්ග හදිසි සහාය", "ta": "சாலை அவசர உதவி" },
+        "number": "1963",
+        "icon": "car",
+        "priority": "medium"
+      }
+    ]
+  },
+  {
+    "category": {
+      "en": "Weather & Landslides",
+      "si": "කාලගුණ සහ නායයාම්",
+      "ta": "வானிலை மற்றும் நிலச்சரிவு"
+    },
+    "contacts": [
+      {
+        "name": { "en": "Meteorology Dept", "si": "කාලගුණ විද්‍යා දෙපාර්තමේන්තුව", "ta": "வானிலை திணைக்களம்" },
+        "number": "0112694846",
+        "icon": "cloud-rain",
+        "priority": "medium"
+      },
+      {
+        "name": { "en": "Landslide Warnings (NBRO)", "si": "නායයාම් අනතුරු ඇඟවීම් (NBRO)", "ta": "நிலச்சரிவு எச்சரிக்கை" },
+        "number": "0112588946",
+        "icon": "mountain",
+        "priority": "high"
+      },
+      {
+        "name": { "en": "Irrigation Dept (River Levels)", "si": "වාරිමාර්ග දෙපාර්තමේන්තුව", "ta": "நீர்ப்பாசன திணைக்களம்" },
+        "number": "0112581162",
+        "icon": "waves",
+        "priority": "medium"
+      }
+    ]
+  },
+  {
+    "category": {
+      "en": "Safety & Protection",
+      "si": "කාන්තා හා ළමා ආරක්ෂාව",
+      "ta": "பாதுகாப்பு"
+    },
+    "contacts": [
+      {
+        "name": { "en": "Child Protection (NCPA)", "si": "ළමා ආරක්ෂක අධිකාරිය", "ta": "சிறுவர் பாதுகாப்பு" },
+        "number": "1929",
+        "icon": "shield",
+        "priority": "medium"
+      },
+      {
+        "name": { "en": "Women’s Help Line", "si": "කාන්තා පිහිට", "ta": "பெண்கள் உதவி" },
+        "number": "1938",
+        "icon": "female",
+        "priority": "medium"
+      }
+    ]
+  }
+]
