@@ -16,23 +16,23 @@
 
 ---
 
-## 📖 Overview
+##  Overview
 
 SafePass is a real-time flood response application designed to help communities in Sri Lanka report and track flood conditions. Built with modern web technologies, it provides an intuitive map interface for citizens to report road blockages, flooded areas, and emergency situations.
 
-## ✨ Features
+##  Features
 
 | Feature | Description |
 |---------|-------------|
-| 🗺️ **Real-time Map** | Interactive map showing flood reports from the last 24 hours |
-| 🎨 **Smart Clustering** | Color-coded clusters prioritizing danger levels (red/yellow for critical areas) |
-| 📍 **GPS Reporting** | Location-based reporting with image uploads (auto-compressed to 1MB) |
-| 🖼️ **Updates Room** | Scrollable gallery showing images and messages from selected areas |
-| 🛡️ **Spam Protection** | 2-minute cooldown between submissions |
-| 📱 **Mobile-First** | Fully responsive design optimized for mobile devices |
-| ✅ **Community Voting** | Vote reports as "True" or "Fake" to filter misinformation |
+|  **Real-time Map** | Interactive map showing flood reports from the last 24 hours |
+|  **Smart Clustering** | Color-coded clusters prioritizing danger levels (red/yellow for critical areas) |
+|  **GPS Reporting** | Location-based reporting with image uploads (auto-compressed to 1MB) |
+|  **Updates Room** | Scrollable gallery showing images and messages from selected areas |
+|  **Spam Protection** | 2-minute cooldown between submissions |
+|  **Mobile-First** | Fully responsive design optimized for mobile devices |
+|  **Community Voting** | Vote reports as "True" or "Fake" to filter misinformation |
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Frontend:** React 18 + Vite
 - **Backend:** Firebase v9 (Firestore + Storage)
@@ -40,7 +40,7 @@ SafePass is a real-time flood response application designed to help communities 
 - **Styling:** Tailwind CSS
 - **Icons:** lucide-react
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -88,7 +88,7 @@ SafePass is a real-time flood response application designed to help communities 
    npm run build
    ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 safepass/
@@ -113,7 +113,7 @@ safepass/
 └── cors.json                    # CORS configuration
 ```
 
-## 🔥 Firebase Configuration
+##  Firebase Configuration
 
 ### 1. CORS Configuration (Required for Image Uploads)
 
@@ -177,8 +177,8 @@ Clusters are colored by highest priority report:
 ## 🗳️ Voting System
 
 Community members can vote reports as:
-- ✅ **True** - Confirms the report
-- ❌ **Fake** - Flags as misinformation
+-  **True** - Confirms the report
+-  **Fake** - Flags as misinformation
 
 Reports with `voteCount < -3` are automatically hidden.
 
@@ -186,7 +186,7 @@ Reports with `voteCount < -3` are automatically hidden.
 
 *Coming soon*
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -196,11 +196,11 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 A volunteer initiative by [ToolTeek](https://toolteek.com) to help communities during flood emergencies.
 
