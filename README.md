@@ -157,7 +157,7 @@ service firebase.storage {
 }
 ```
 
-## 🎯 Report Types
+##  Report Types
 
 | Type | Color | Description |
 |------|-------|-------------|
@@ -174,7 +174,7 @@ Clusters are colored by highest priority report:
 3. **Blue** - Contains "help_needed" reports
 4. **Green** - Only "safe" reports
 
-## 🗳️ Voting System
+##  Voting System
 
 Community members can vote reports as:
 -  **True** - Confirms the report
@@ -182,7 +182,7 @@ Community members can vote reports as:
 
 Reports with `voteCount < -3` are automatically hidden.
 
-## 📱 Screenshots
+##  Screenshots
 
 *Coming soon*
 
